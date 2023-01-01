@@ -1,13 +1,12 @@
-package homework.no2.practice;
+package practice;
 
 public class Member {
-
 	private String userid;
 	private String password;
 	private String email;
 	private String grade;
 	private String tell;
-	private boolean isLeave;
+	private boolean isleave;
 	public String getUserid() {
 		return userid;
 	}
@@ -38,19 +37,18 @@ public class Member {
 	public void setTell(String tell) {
 		this.tell = tell;
 	}
-	public boolean isLeave() {
-		return isLeave;
+	public boolean isIsleave() {
+		return isleave;
 	}
-	public void setLeave(boolean isLeave) {
-		this.isLeave = isLeave;
+	public void setIsleave(boolean isleave) {
+		this.isleave = isleave;
 	}
 	@Override
 	public String toString() {
-		return "Member [userid=" + userid + ", password=" + password + ", email=" + email + ", grade=" + grade
-				+ ", tell=" + tell + ", isLeave=" + isLeave + "]";
+		return "member [userid=" + userid + ", password=" + password + ", email=" + email + ", grade=" + grade
+				+ ", tell=" + tell + ", isleave=" + isleave + "]";
 	}
 	
 	
-}
 	
-
+}
